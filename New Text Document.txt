@@ -33,3 +33,18 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 3501@DESKTOP-BG779BJ MINGW64 /d/Akshay/C-DAC2021/Modules/07_SDM/04_Git_Bash/git_prac (main)
 $
+
+=============================================================================================
+$ git init
+Initialized empty Git repository in F:/git only/in collaboration/.git/
+
+anike@DESKTOP-0OFO0Q5 MINGW64 /f/git only/in collaboration (master)
+$ git clone https://github.com/patilakshay1797/cdac_os.git
+Cloning into 'cdac_os'...
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 27 (delta 8), reused 20 (delta 3), pack-reused 0
+Receiving objects: 100% (27/27), 14.81 KiB | 798.00 KiB/s, done.
+Resolving deltas: 100% (8/8), done.
+
