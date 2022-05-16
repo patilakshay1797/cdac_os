@@ -1,0 +1,35 @@
+3501@DESKTOP-BG779BJ MINGW64 /d/Akshay/C-DAC2021/Modules/07_SDM/04_Git_Bash/git_prac (master)
+$ git branch -M main
+
+3501@DESKTOP-BG779BJ MINGW64 /d/Akshay/C-DAC2021/Modules/07_SDM/04_Git_Bash/git_prac (main)
+$ git remote add https://github.com/patilakshay1797/cdac_os.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+3501@DESKTOP-BG779BJ MINGW64 /d/Akshay/C-DAC2021/Modules/07_SDM/04_Git_Bash/git_prac (main)
+$ git remote add origin https://github.com/patilakshay1797/cdac_os.git
+
+3501@DESKTOP-BG779BJ MINGW64 /d/Akshay/C-DAC2021/Modules/07_SDM/04_Git_Bash/git_prac (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.56 KiB | 8.56 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/patilakshay1797/cdac_os.git
+   c14a1a7..dce126c  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+3501@DESKTOP-BG779BJ MINGW64 /d/Akshay/C-DAC2021/Modules/07_SDM/04_Git_Bash/git_prac (main)
+$
